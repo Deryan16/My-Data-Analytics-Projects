@@ -33,9 +33,6 @@ View(cyclistic_2022_all)
 #Create the Data Visualizations
 
 #Casual VS Members (percentage)
-(¿Se puede poner porcentaje?)
-(Visuals of y bars)
-#OPTION 1
 ggplot(cyclistic_2022_all, aes(x=member_casual,
                                y=..count../sum(..count..)))+
   geom_bar(fill="aquamarine",
